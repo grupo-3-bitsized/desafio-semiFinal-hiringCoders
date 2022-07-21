@@ -1,0 +1,65 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": [
+      "vtex.menu@2.x:menu#clothing-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-decoration-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-sale-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  }
+}

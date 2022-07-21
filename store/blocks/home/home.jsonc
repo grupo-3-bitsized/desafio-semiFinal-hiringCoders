@@ -1,0 +1,78 @@
+{
+  "store.home": {
+    "blocks": [
+      "info-card#use-seus-pontos",
+      "__fold__",
+      "flex-layout.row#shelf",
+      "info-card#home",
+      "rich-text#question",
+      "rich-text#link"
+    ]
+  },
+  "info-card#use-seus-pontos": {
+    "props": {
+      "id": "info-card-usar-pontos",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/bannerhome.jpg",
+      "headline": "",
+      "callToActionText": "USAR MEUS PONTOS AGORA",
+      "callToActionUrl": "/eletronicos",
+      "blockClass": "info-card-usar-pontos",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/acessorios.jpg",
+      "headline": "Os melhores acessórios para seu dia",
+      "callToActionText": "Acessórios",
+      "callToActionUrl": "/acessorios",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "**Obrigada pela visita.\nVolte sempre**",
+      "blockClass": "question"
+    }
+  },
+  "rich-text#link": {
+    "props": {
+      "text": "\n\nwww.maria.com.br",
+      "blockClass": "link"
+    }
+  }
+}
